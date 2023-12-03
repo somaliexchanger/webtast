@@ -1,0 +1,403 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    width: 1005;
+}
+header{
+    background-color: rgb(136, 136, 33);
+ padding: 200px 0px;
+    background-image: url(./images/delever.jpg);
+}
+nav{
+    text-align: right;
+ position: absolute;
+ top: 0;
+ right: 5%;
+     color: #71aade; 
+     padding: 20px;
+     font-size: 20px;
+     }
+ul, li, a {
+    display: inline-block;
+    color:wheat ;
+    background-color:#011DA5 ;
+ text-decoration: none;
+   padding: 3px;
+}
+.text-home{
+    color: antiquewhite;
+    max-width: 420px;
+ margin: 50px;
+ font-size: 20px;
+
+
+}
+span{
+    color: #b0ed08
+}
+.btn-button{
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 1px solid red;
+    font-size: 20px;
+    box-shadow: none;
+  color: rgb(33, 17, 79);
+    background-color: rgb(214, 255, 127);
+}
+.btn-button:hover{
+    background-color: #87590e;
+}
+
+.logo-icons{
+    display: flex;
+    height:90px;
+    width: 100px;
+    padding: 30px;
+    
+}
+.feature{
+  padding: 50px;
+  
+}
+.feature-row{
+    display: flex;
+}
+.feature-row img{
+    
+   height: 300px;
+   width: 300px;
+   border: 5px solid blue;
+   border-radius: 10px;
+   margin: 10px 0px;
+   align-items: center;
+}
+
+.feature-row p{
+    font-family: sans-serif;
+    font-size: 25px;
+    max-width: 350px;
+}
+.btn-buy{
+    padding: 15px;
+    width: 200px;
+    margin: 10px;
+    background-color: rgb(64, 0, 255);
+    color: aliceblue;
+    border-radius: 5px;
+}
+.btn-buy2{
+    padding: 15px;
+    width: 200px;
+    margin: 10px;
+    background-color:  #870e7b;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.btn-buy2:hover{
+    background-color:#0400ff ;
+}
+ 
+.btn-buy3{
+    padding: 15px;
+    width: 200px;
+    margin: 10px;
+    background-color: #ff0095;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.btn-buy3:hover{
+    background-color:#870e7b ;
+}
+.feature-colum2 img{
+    border: 5px solid #870e7b;
+}
+.feature-colum3 img{
+    border: 5px solid#ff0095;
+}
+.health{
+    display: flex;
+    padding: 30px;
+    
+}
+.text-helth{
+    max-width: 500px;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin: 50px;
+}
+.text-helth p{
+    padding: 20px;
+}
+#fcn{
+    color: #ff0095;
+}
+.footer-text{
+    display: flex;  
+}
+
+footer{
+    background-color: #4e0e87;
+    text-align: center;
+    position: absolute;
+   width: 100%;
+   
+   padding: 30px;
+}
+.footer-text{
+    padding: 20px;
+    text-align: center;
+    color: #fdfcfd;
+}
+.footer-text small{
+    font-family: sans-serif;
+    font-size:25px;
+}
+.footer-text h1{
+    color: #59ff00;
+}
+.copy {
+font-size: 25px;
+padding: 20px;
+
+}
+#product1, #product2 , #product3{
+    padding: 20px;
+} 
+
+/* About Us */
+.about-us{
+    background-color:#FFC8C8;
+    
+    
+}
+.about-us{
+display: flex;
+ margin: 20px;
+}
+.about-text{
+    padding: 30px;
+    max-width: 400px;
+    font-size: 25px;
+    
+
+    
+}
+.about-text p{
+    padding: 5px;
+    font-family: 'Roboto', sans-seri;
+
+}
+
+.about-img{
+    padding: 20px;
+}
+.about-center{
+    text-align: center;
+    display: flex;
+    max-width: 700px;
+    padding: 50px;
+    margin: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    position: absolute;
+    
+}
+.about-text1{
+    padding: 30px;
+    background-color:#3D30A2;
+color: #FFDFDF;
+
+}
+.about-text2{
+    padding: 30px;
+    background-color:#9ea230;
+    color: #FFDFDF;
+    
+}
+.logo img{
+   position: absolute;
+   top: 0%;
+   left: 0;
+   padding: 0px;
+   height: 150px;
+   
+}
+.about-text3{
+    padding: 30px;
+    border: 2px solid #F875AA;
+}
+#About{
+    padding: 0%;
+}
+.ulbutton ul{
+    color: hsl(99, 100%, 50%);
+}
+.btn-ABOUT:hover{
+    color: #59ff00;
+
+}
+/* images section */
+#Location{
+background-image: url(./images/hero-img.jpg);
+width: 100%;
+padding: 50px;
+background:linear-gradient(rgb(4,4,234,)) ;
+ 
+
+}
+#api-text {
+    
+    max-width: 350px;
+font-size: 17px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 500;
+
+}
+#btn-dn{
+    padding: 10px;
+    background-color: white;
+    border: 0;
+    border-radius: 1px;
+    margin: 10px 0;
+}
+#api-text p{
+    padding: 10px 0;
+}
+.land-1{
+    background-image: url(./images/lami.jpg);
+    width: 100%;
+    height: 400px;
+}
+#land-text{
+    background: linear-gradient(90deg,transparent,rgba(0,0,0,.6));
+    max-width: 375px;
+    margin-left: 900px;
+    color: rgb(239, 235, 241) ;
+    padding: 50px;
+ font-family: "Times New Roman", Times, serif;
+font-weight: 400;
+font-size: 15px;
+}
+
+#land-text p{
+    padding:10px 0 ;
+}
+.btn-learne{
+    padding: 10px 0;
+}
+.btn-l{
+    padding: 10px;
+}
+.btn-t{
+    padding: 15px;
+    border: 2px solid blue;
+    box-shadow: none;
+    margin-left: 15px;
+}
+
+.btn-learne{
+    display: flex;
+   margin: 10p;
+}
+.new-section{
+    background-image: url(./images/bundo3.jpg);
+    width: 100%;
+    height: 600px;
+}
+.buundo{
+    max-width: 350px;
+    padding: 60px;
+    color: rgb(0, 0, 0);
+   
+}
+.buundo p{
+    padding: 10px 0;
+}
+.blog{
+    background-image: url(./images/jid5.jpg);
+    width: 100%;
+    height: 400px;
+}
+.blog-text{
+    max-width: 350px;
+    padding: 60px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(10deg,transparent,rgba(0,0,0,.6));
+    
+}
+.blog-text p{
+    padding: 10px 0;
+}
+.man{
+    background-image: url(./images/dud7.jpg);
+    width: 100%;
+    height: 400px;
+    
+}
+.man-text{
+    max-width: 370px;
+   padding-left: 600px;
+   margin: 20px;
+}
+.man-text  p{
+    padding: 15px 0;
+}
+.man-text h4{
+    padding-top: 40px;
+}
+.btn-lr{
+   padding: 5px;
+  background-color: black;
+  color: white;
+  width: 40%;
+  border: none;
+}
+.btn-ld{
+    display: flex;
+}
+.btn-d{
+    padding: 10px;
+    border: 2px solid ;
+    margin: 5px ;
+    width: 30%;
+    text-align: center;
+}
+#h4-r{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.control{
+    display: flex;
+    padding-top: 30px;
+    
+}
+.girls img{
+    height: 400px;
+    width: 600px;
+}
+.girls-text {
+    padding: 20px;
+}
+.girls-text p{
+padding: 10px;
+}
+.girls, .girls-text{
+    border: 1px solid rgb(180, 180, 192);
+}
+
+
+
+
+
+
+
